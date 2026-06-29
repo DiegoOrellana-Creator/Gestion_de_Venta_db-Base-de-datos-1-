@@ -1,0 +1,108 @@
+--- Error al crear vista dashboard ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 220, in _create_view
+    from views.personas_view   import ClientesView, VendedoresView
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 240
+    try:
+IndentationError: unexpected indent
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
+--- Error al crear vista clientes ---
+Traceback (most recent call last):
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 98, in _navigate
+    view = self._create_view(key)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\main_window.py", line 232, in _create_view
+    view = cls(self._content)
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 14, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "c:\Users\dogkj\Downloads\ventas_app\ventas_app\views\personas_view.py", line 43, in _build
+    ttk.Button(toolbar, text="✖ Eliminar", style="Danger.TButton", command=self._delete_selected).pack(side="right", padx=(8,0))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientesView' object has no attribute '_delete_selected'
+
